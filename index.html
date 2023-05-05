@@ -13,7 +13,7 @@
     <div class="container">
         <nav>
             <img src="website_photos/logo.png" class="logo">
-            <ul id="menubar">
+            <ul id="sidemenu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
@@ -185,15 +185,17 @@
         document.getElementById(tabname).classList.add("active-tab");
     }
 
-    var sidemenu=document.getElementById("menubar");
+</script>
+
+<script>
+    var sidemeu=document.getElementById("sidemenu");
 
     function openmenu(){
-        menubar.style.right="0";
+        sidemeu.style.right="0";
     }
-    function openmenu(){
-        menubar.style.right="-200px";
+    function closemenu(){
+        sidemeu.style.right="-200px";
     }
-
 </script>
 
 </body>

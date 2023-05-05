@@ -332,14 +332,14 @@ nav .fa-solid{
         display: block;
         margin: 25px;
     }
-    nav ul .fast{
+    nav ul .fa-solid{
         position: absolute;
         top: 25px;
         left: 25px;
         cursor: pointer;
     }
     .sub-title{
-        font-size: 50px;
+        font-size: 40px;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
